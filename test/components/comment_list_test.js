@@ -4,8 +4,8 @@ import CommentList from "../../src/components/comment_list";
 describe("CommentList", () => {
   let component;
 
-  beforeEach(() =>{
-    const props = {comments: ["New Comment", "Other New Comment"]};
+  beforeEach(() => {
+    const props = { comments: ["New Comment", "Other New Comment"] };
     component = renderComponent(CommentList, null, props);
   });
 
